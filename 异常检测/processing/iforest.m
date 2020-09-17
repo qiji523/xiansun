@@ -44,8 +44,9 @@ AUC_results = [mean(auc), std(auc)] % average AUC over 10 trials
  
 
 %% Plot AUC based on last trial
-
+try
 [Xlog,Ylog,Tlog,AUClog] = perfcurve(logical(ADLabels),Score,'true');
 plot(Xlog,Ylog) 
 xlabel('False positive rate'); ylabel('True positive rate');
 title('AUC')
+end
