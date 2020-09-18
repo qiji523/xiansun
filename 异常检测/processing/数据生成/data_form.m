@@ -1,15 +1,5 @@
 clear all 
 current_dir = pwd; % 获取当前路径
-% N=input('输入循环次数N 范围：1000-2000\n');
-% R_scale=input('输入故障电阻缩放系数800-1000\n');
-% alpha=input('输入故障发生比例0.01-0.1\n');
-% N = 1000;  %循环次数
-%%%%数据输入模块
-% %%N_min,Nmax,Ncount
-% R_scale_min R_scale_max,R_scale_count
-%alpha_min,alpha_max,alpha_count
-% %%
-%  alpha=0.01;
 N_min=input('输入循环次数N_min,max,count 范围：1000-2000\n');
 N_max=input('\n');
 N_count=input('\n');
